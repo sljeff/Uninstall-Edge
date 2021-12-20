@@ -1,5 +1,7 @@
 # Uninstall-Edge
 
+https://sspai.com/post/70320
+
 ## 三步卸载 Microsoft Edge
 
 1. 管理员模式打开 powershell
