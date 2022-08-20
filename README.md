@@ -7,7 +7,7 @@ https://sspai.com/post/70320
 ## 省流版：三步卸载 Microsoft Edge
 
 1. 管理员模式打开 powershell
-2. `cd 'C:\Program Files (x86)\Microsoft\Edge\Application\9*\Installer'`
+2. `cd 'C:\Program Files (x86)\Microsoft\Edge\Application\*\Installer'`
 3. `./setup --uninstall --force-uninstall --system-level`
 
 ---
@@ -47,7 +47,7 @@ cd 'C:\Program Files (x86)\Microsoft\Edge\Application\9*\Installer'
 
 > 补充说明：
 > 
-> 这里的通配符 `9*` 是匹配了 edge 的版本号，我本地是 `96.0.1054.57` 版本。所以我最终进入了` C:\Program Files (x86)\Microsoft\Edge\Application\96.0.1054.57\Installer` 目录。
+> 这里的通配符 `*` 是匹配了 edge 的版本号，我本地是 `96.0.1054.57` 版本。所以我最终进入了` C:\Program Files (x86)\Microsoft\Edge\Application\96.0.1054.57\Installer` 目录。
 
 ### 三、卸载
 
