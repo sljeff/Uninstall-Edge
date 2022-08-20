@@ -2,11 +2,17 @@
 
 https://sspai.com/post/70320
 
-## 三步卸载 Microsoft Edge
+---
+
+## 省流版：三步卸载 Microsoft Edge
 
 1. 管理员模式打开 powershell
 2. `cd 'C:\Program Files (x86)\Microsoft\Edge\Application\9*\Installer'`
 3. `./setup --uninstall --force-uninstall --system-level`
+
+---
+
+## 详细版
 
 ### 一、管理员模式打开 powershell
 
